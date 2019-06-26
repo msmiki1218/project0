@@ -1,0 +1,10 @@
+/* for project 0 */
+
+.jumbotron {
+    background-image: url("../img/sergi-kabrera-2xU7rYxsTiM-unsplash.jpg");
+    background-size: cover;
+}
+
+.jumbo-container {
+    background-color: rgba(255,255,255,.7);
+}
