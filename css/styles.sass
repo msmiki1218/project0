@@ -12,6 +12,10 @@ h1
     background-image: url("../img/keyboard.jpg")
     background-size: cover
 
+@media screen and (max-width: 480px)
+    .jumbotron
+        background-color: #add8e6
+
 .jumbo-container
     background-color: $my-faded
 
@@ -40,12 +44,16 @@ h1
     .container
         background-color: $my-faded
         margin: auto
-        width: 50%
+        width: 80%
         padding: 1rem
 
 .ed-intro
     background-image: $ed-bg
     background-size: cover
+
+@media screen and (max-width: 480px)
+    .ed-intro
+        background-color: #add8e6
 
 #courses
     padding: 2rem
@@ -53,13 +61,27 @@ h1
 .skills-intro
     background-image: $skills-bg
     background-size: cover
+
+@media screen and (max-width: 480px)
+    .skills-intro
+        background-color: #add8e6
+
+#skills
+    padding-top: 2rem
     
 #skill_table
-    table
-        margin: auto
-        width: 75%
-        th
-           background-color: $my-red
-           color: $my-white
-            
+   border-collapse: collapse
+   width: 100%
+   td
+       border: 1px solid #ddd
+       padding: 0.5rem
+       width: 33%
+       text-align: center
+       img
+           width: 5rem
+
+
+
+
+
     

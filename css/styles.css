@@ -7,6 +7,12 @@ h1 {
   background-size: cover;
 }
 
+@media screen and (max-width: 480px) {
+  .jumbotron {
+    background-color: #add8e6;
+  }
+}
+
 .jumbo-container {
   background-color: rgba(255, 255, 255, 0.7);
 }
@@ -46,13 +52,19 @@ h1 {
 #intro .container {
   background-color: rgba(255, 255, 255, 0.7);
   margin: auto;
-  width: 50%;
+  width: 80%;
   padding: 1rem;
 }
 
 .ed-intro {
   background-image: url(../img/education-hero.jpg);
   background-size: cover;
+}
+
+@media screen and (max-width: 480px) {
+  .ed-intro {
+    background-color: #add8e6;
+  }
 }
 
 #courses {
@@ -64,13 +76,29 @@ h1 {
   background-size: cover;
 }
 
-#skill_table table {
-  margin: auto;
-  width: 75%;
+@media screen and (max-width: 480px) {
+  .skills-intro {
+    background-color: #add8e6;
+  }
 }
 
-#skill_table table th {
-  background-color: #dc3545;
-  color: #ffffff;
+#skills {
+  padding-top: 2rem;
+}
+
+#skill_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#skill_table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  width: 33%;
+  text-align: center;
+}
+
+#skill_table td img {
+  width: 5rem;
 }
 /*# sourceMappingURL=styles.css.map */
