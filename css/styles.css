@@ -1,10 +1,76 @@
-/* for project 0 */
+h1 {
+  color: #dc3545;
+}
 
 .jumbotron {
-    background-image: url("../img/sergi-kabrera-2xU7rYxsTiM-unsplash.jpg");
-    background-size: cover;
+  background-image: url("../img/keyboard.jpg");
+  background-size: cover;
 }
 
 .jumbo-container {
-    background-color: rgba(255,255,255,.7);
+  background-color: rgba(255, 255, 255, 0.7);
 }
+
+#social {
+  margin: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#social a {
+  color: #ffffff;
+}
+
+#social a:hover {
+  color: #ffffff;
+}
+
+#social a:active {
+  color: #ffffff;
+}
+
+#social a:visited {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.social-container {
+  background-color: #dc3545;
+  padding: 30px;
+}
+
+#intro {
+  padding: 2rem;
+  height: 15rem;
+}
+
+#intro .container {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: auto;
+  width: 50%;
+  padding: 1rem;
+}
+
+.ed-intro {
+  background-image: url(../img/education-hero.jpg);
+  background-size: cover;
+}
+
+#courses {
+  padding: 2rem;
+}
+
+.skills-intro {
+  background-image: url(../img/skills-hero.jpg);
+  background-size: cover;
+}
+
+#skill_table table {
+  margin: auto;
+  width: 75%;
+}
+
+#skill_table table th {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+/*# sourceMappingURL=styles.css.map */
