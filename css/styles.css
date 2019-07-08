@@ -101,4 +101,15 @@ h1 {
 #skill_table td img {
   width: 5rem;
 }
+
+.interests-intro {
+  background-image: url(../img/music-hero.jpg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 480px) {
+  .interests-intro {
+    background-color: #add8e6;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

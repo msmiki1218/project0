@@ -3,6 +3,7 @@ $my-white: #ffffff
 $my-faded: rgba(255,255,255,.7)
 $ed-bg: url(../img/education-hero.jpg)
 $skills-bg: url(../img/skills-hero.jpg)
+$interests-bg: url(../img/music-hero.jpg)
 
 h1
     color: $my-red
@@ -80,6 +81,13 @@ h1
        img
            width: 5rem
 
+.interests-intro
+    background-image: $interests-bg
+    background-size: cover
+
+@media screen and (max-width: 480px)
+    .interests-intro
+        background-color: #add8e6
 
 
 
